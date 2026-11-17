@@ -1,0 +1,5 @@
+input : data/test.tif
+size  : 4096 x 3072, bands = 3, bits/pixel = 8 (Byte)
+output: output/test1.tif (each pixel value - 10, clamped to 0)
+pixels clamped to 0: 0
+time  : read 72.7 ms, process 101.3 ms, write 142.8 ms

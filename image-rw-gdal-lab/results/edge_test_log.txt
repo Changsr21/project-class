@@ -1,0 +1,28 @@
+{
+  "Byte": {
+    "values": 3922,
+    "below_10": 192,
+    "mismatched": 0,
+    "PASS": true,
+    "program_log": [
+      "input : results/edge_tmp/in_Byte.tif",
+      "size  : 53 x 37, bands = 2, bits/pixel = 8 (Byte)",
+      "output: results/edge_tmp/out_Byte.tif (each pixel value - 10, clamped to 0)",
+      "pixels clamped to 0: 192",
+      "time  : read 0.5 ms, process 0.0 ms, write 0.3 ms"
+    ]
+  },
+  "UInt16": {
+    "values": 3922,
+    "below_10": 20,
+    "mismatched": 0,
+    "PASS": true,
+    "program_log": [
+      "input : results/edge_tmp/in_UInt16.tif",
+      "size  : 53 x 37, bands = 2, bits/pixel = 16 (UInt16)",
+      "output: results/edge_tmp/out_UInt16.tif (each pixel value - 10, clamped to 0)",
+      "pixels clamped to 0: 20",
+      "time  : read 0.2 ms, process 0.0 ms, write 0.3 ms"
+    ]
+  }
+}
