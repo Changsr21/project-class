@@ -1,0 +1,54 @@
+{
+  "input": "data/test.tif",
+  "output": "output/test1.tif",
+  "subtract": 10,
+  "input_meta": {
+    "width": 4096,
+    "height": 3072,
+    "bands": 3,
+    "dtype": "Byte",
+    "compression": "PACKBITS"
+  },
+  "output_meta": {
+    "width": 4096,
+    "height": 3072,
+    "bands": 3,
+    "dtype": "Byte",
+    "compression": "PACKBITS"
+  },
+  "shape_equal": true,
+  "total_values": 37748736,
+  "mismatched_values": 0,
+  "input_values_below_sub (clamped to 0)": 0,
+  "per_band": {
+    "R": {
+      "in_min": 30,
+      "in_max": 255,
+      "in_mean": 109.7966,
+      "out_min": 20,
+      "out_max": 245,
+      "out_mean": 99.7966,
+      "mean_diff": 10.0
+    },
+    "G": {
+      "in_min": 48,
+      "in_max": 255,
+      "in_mean": 116.4724,
+      "out_min": 38,
+      "out_max": 245,
+      "out_mean": 106.4724,
+      "mean_diff": 10.0
+    },
+    "B": {
+      "in_min": 50,
+      "in_max": 255,
+      "in_mean": 114.1347,
+      "out_min": 40,
+      "out_max": 245,
+      "out_mean": 104.1347,
+      "mean_diff": 10.0
+    }
+  },
+  "md5_output_pixels": "ce0ce7a2afb9435b37d216a88a860d06",
+  "PASS": true
+}
