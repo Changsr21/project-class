@@ -1,0 +1,5 @@
+# 仅校验脚本（scripts/*.py）需要；C++ 主程序依赖 GDAL C++ 库，推荐用 environment.yml（conda-forge）一并安装
+gdal==3.13.3
+numpy
+matplotlib
+pillow

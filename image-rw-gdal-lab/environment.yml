@@ -1,0 +1,13 @@
+name: imgrw
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - gxx_linux-64      # C++ 编译器（g++）
+  - cmake
+  - make
+  - libgdal-core      # GDAL C/C++ 库与头文件
+  - gdal              # GDAL Python 绑定（校验脚本用）
+  - numpy
+  - matplotlib
+  - pillow
